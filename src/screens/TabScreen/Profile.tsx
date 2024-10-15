@@ -4,7 +4,7 @@ import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native';
 
 const Profile: React.FC = () => {
   const navigation = useNavigation();
-  const route = useRoute();
+  const route = useRoute();6
   return (
     <View style={styles.container}>
       <View style={styles.header}>
@@ -19,8 +19,8 @@ const Profile: React.FC = () => {
           source={require("../../assets/sip.jpg")} 
           style={styles.profileImage} 
         />
-        <Text style={styles.profileName}>muhammad ramdhan ashari</Text>
-        <Text style={styles.profileEmail}>ramdhanashari1@gmail.com</Text>
+        <Text style={styles.profileName}>arul maulana sidik</Text>
+        <Text style={styles.profileEmail}>arul97296@gmail.com</Text>
       </View>
 
       <TouchableOpacity style={styles.editButton}>
